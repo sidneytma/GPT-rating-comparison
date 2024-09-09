@@ -1,2 +1,6 @@
-# GPT-rating-comparison
-Examining whether GPT rating distributions closely match human rating distributions in psycholinguistic studies.
+# Comparing GPT Rating Distributions to Humans
+This project is based on work completed during my independent honors program at UCSD. The goal was to determine if large language models (LLMs) could effectively replace human participants in psycholinguistic studies. Specifically, I recreated prompts from studies asking for subjective ratings of semantic properties of words, but instead used multiple instances of GPT responses to represent participants.
+
+While prior research suggested GPT's mean responses align with human responses, my goal was to determine whether the overall distributions of GPT and human responses have similar properties. To do this, I collected 100 GPT ratings per word and ran two sets of statistical tests: (1) correlations of statistical measures like mean, standard deviation, skewness, and kurtosis, and (2) likelihood estimation to compare GPT and human distributions.
+
+Unfortunately, after running these tests, I did not come across any significant results. It does not appear that humans and GPT respond to this rating task in similar distributions, even when adjusting the GPT's temperature (variability). GPT tends to respond with much more certainty or predictabiliity than humans do, which seems to align with previous research. Moving forward, it may be worth applying this research to other domains (e.g. moral psychology rating tasks), and comparing distributions with higher resolution (i.e. more than a 7-point scale) and higher human sample size.
